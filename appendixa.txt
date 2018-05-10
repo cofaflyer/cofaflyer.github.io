@@ -1,3 +1,8 @@
+<html>
+<head>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
 Appendix A.
 Effective date Feb 1, 1999 Supersedes Appendix A, dated Jun 1, 1998
 Revised November 18, 2001
@@ -100,3 +105,5 @@ Article VIII, Section A (AIRCRAFT RESERVATION PARAMETERS)
 Max reservations ...............................................3
 Maximum in-advance scheduling............................365 days
 Maximum length of reservation (once per year).....over 2 weekends.
+</body>
+</html>

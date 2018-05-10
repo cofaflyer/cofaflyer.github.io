@@ -1,0 +1,20 @@
+body {
+    background-color: skyblue;
+}
+h4 {
+	color: white;
+}
+h5 {
+	color: blue;
+}
+.column {
+    float: left;
+    width: 50%;
+}
+
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
