@@ -14,7 +14,7 @@
 	<p align="right">
 		<font size="+2" color="white">(614) 570 - 6940 <br /></font> <font
 			size="+1" color="white"> OSU AIRPORT, WEST CASE ROAD.<br />
-			COLUMBUS, OH, UNITED STATES <br /></font> Hangers D5 - D6
+			COLUMBUS, OH, UNITED STATES <br /> Hangers D5 - D6</font>
 	</p>
 	<img name="main3" src="images/airportRH.jpg" align="right" border=0 />
 
@@ -103,15 +103,7 @@
 	<p></p>
 
 
-	<p>
-		<font size="+1">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-			Location :&nbsp; OSU AIRPORT, WEST CASE ROAD, COLUMBUS, OH, UNITED
-			STATES Hangers D5 - D6</font>
-	</p>
-	<p>
-		<font size="+1">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-			Phone (614) 570 - 6940</font>
-	</p>
+	
 
 	<div
 		style="display: flex; flex-direction: row; justify-content: left; align-items: center">
@@ -119,8 +111,8 @@
 		<div>&nbsp;&nbsp;&nbsp;&nbsp;</div>
 		<div>
 			<p>
-				<a href="bylaws.html"><img name="Message" src="LIGHTS.gif"
-					border="0" width="88" height="66"></a>
+				<a href="bylaws.html"><img name="Message" src="images/ByLaw.jpg"
+					border="0" width="90" height="90" ></a>
 			</p>
 			<p>
 				<a href="bylaws.html"><font size="3"
@@ -132,9 +124,9 @@
 
 		<div>
 			<p>
-				<a href="http://groups.yahoo.com/group/COFANET/"><img
-					name="Message" src="images/blackboard.gif" border="0" width="92"
-					height="58"></a>
+				<a href="http://groups.yahoo.com/group/COFANET/">
+				<img name="Message" src="images/discussion.png" 
+				border="0" width="90" height="90"></a>
 			</p>
 			<p>
 				<a href="http://groups.yahoo.com/group/COFANET/"><font
@@ -147,7 +139,8 @@
 		<div>
 			<p>
 				<a href="http://www.pilotschedule.com/login.php"><img
-					name="Message" src="schedule.jpg" border="0" width="92" height="58"></a>
+					name="Message" src="images/schedule.png" 
+					border="0" width="90" height="90"></a>
 			</p>
 			<p>
 				<a href="http://www.pilotschedule.com/login.php"><font
@@ -157,40 +150,81 @@
 		</div>
 	</div>
 
+	<div
+		style="display: flex; flex-direction: row; justify-content: left; align-items: center">
+
+		<div>&nbsp;&nbsp;&nbsp;&nbsp;</div>
+		<div>
 	<p>
-		<a href="planes.html"><img src="images/plane3-b.gif" width="106"
-			height="45" border="0"></a>
+		<a href="planes.html"><img src="images/cessna-icon2.png"
+		border="0" width="90" height="90"></a>
 	</p>
 	<p>
 		<a href="planes.html"><font face="Times New Roman, Times, serif"
 			size="3">Our Planes</font></a>
 	</p>
 	<p></p>
-
-
+		</div>
+		<div>&nbsp;&nbsp;&nbsp;&nbsp;</div>
+		
+		<div>
 	<p>
-		<a href="aboutus.html"><img src="radar.gif" width="75" height="75"
-			border="0"></a>
+		<a href="aboutus.html"><img src="images/faq.jpg" 
+		border="0" width="90" height="90"></a>
 	</p>
 	<p>
 		<a href="aboutus.html"><font face="Times New Roman, Times, serif"
-			size="3">Frequently Asked Questions</font></a>
+			size="3">About Us</font></a>
 	</p>
+		</div>
+		
+		<div>&nbsp;&nbsp;&nbsp;&nbsp;</div>
+		
+		<div>
 
 	<p>
 		<a
-			href="mailto:wh0059@aol.com;stevehf@columbus.rr.com;ilsub@hotmail.com"><img
-			name="mail" src="images/mailbox.gif" border="0" align="middle"></a>
+			href="mailto:mccrink.2@osu.edu;stevehf@columbus.rr.com;ilsub@hotmail.com"><img
+			name="mail" src="images/send-message.png" border="0" width="90" height="90"></a>
 	</p>
 	<p>
 		<a
-			href="mailto:wh0059@aol.com;stevehf@columbus.rr.com;ilsub@hotmail.com"><font
+			href="mailto:mccrink.2@osu.edu;stevehf@columbus.rr.com;ilsub@hotmail.com"><font
 			face="Times New Roman, Times, serif" size="3">Send Message to
 				COFA</font></a>
 	</p>
-	<p></p>
+	
+		</div>
+	</div>
 
+	<h5>
+		<p>
+		<font size="+1">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+			Location :&nbsp; OSU AIRPORT, WEST CASE ROAD, COLUMBUS, OH, UNITED
+			STATES Hangers D5 - D6</font>
+	</p>
+	<p>
+		<font size="+1">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+			Phone (614) 570 - 6940</font>
+	</p>
+	</h5>
+	<div id="map" style="width:800px;height:600px;background:yellow"></div>
 
+	<script>
+		function myMap() {
+			var mapOptions = {
+			center: new google.maps.LatLng(40.079839, -83.072565),
+			zoom: 15,
+			mapTypeId: google.maps.MapTypeId.HYBRID
+		}
+		var map = new google.maps.Map(document.getElementById("map"), mapOptions);
+		}
+	</script>
+
+	<script src="https://maps.googleapis.com/maps/api/js?callback=myMap"></script>
+
+	<br/>
+	<br/>
 	<p>
 		<font face="Times New Roman, Times, serif" size="3">Links</font>
 	</p>

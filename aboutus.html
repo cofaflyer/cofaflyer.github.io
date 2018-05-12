@@ -45,7 +45,7 @@ The dry charges are based on the cost associated with hourly operation of the ai
 each being set aside for engine overhauls and other related hourly operating costs.
 <br/>
 <br/>
-Cessna 172 - 9 GPH
+Cessna 172 - 9 GPH<br/>
 Cessna 182 - 14 GPH
 <br/>
 <br/>
@@ -81,5 +81,21 @@ learning about aircraft ownership the hard way. When you are ready to move up to
 
   </div>
 </div>
+<br/>
+<br/>
+<div id="map" style="width:600px;height:400px;background:yellow"></div>
+
+	<script>
+		function myMap() {
+			var mapOptions = {
+			center: new google.maps.LatLng(40.079839, -83.072565),
+			zoom: 14,
+			mapTypeId: google.maps.MapTypeId.HYBRID
+		}
+		var map = new google.maps.Map(document.getElementById("map"), mapOptions);
+		}
+	</script>
+
+	<script src="https://maps.googleapis.com/maps/api/js?callback=myMap"></script>
 </body>
 </html>
